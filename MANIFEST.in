@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erp_whatsapp_intigration *.css
+recursive-include erp_whatsapp_intigration *.csv
+recursive-include erp_whatsapp_intigration *.html
+recursive-include erp_whatsapp_intigration *.ico
+recursive-include erp_whatsapp_intigration *.js
+recursive-include erp_whatsapp_intigration *.json
+recursive-include erp_whatsapp_intigration *.md
+recursive-include erp_whatsapp_intigration *.png
+recursive-include erp_whatsapp_intigration *.py
+recursive-include erp_whatsapp_intigration *.svg
+recursive-include erp_whatsapp_intigration *.txt
+recursive-exclude erp_whatsapp_intigration *.pyc
